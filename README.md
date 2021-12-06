@@ -1,10 +1,14 @@
-If you have not download and installed Node in your computer:
-	 Download Node. https://nodejs.org/en/download/ and installed
+<h1 align="center">01 - Introduction to Angular</h1>
 
-Install Angular CLI globally
-	  npm install -g @angular/cli
+## Prerequisites
 
-How to create fresh angular project
-	1. Angular cli command - ng new "projectname" 
-	2. Once its created , go inside the project folder name (cd "foldername")
+* Node.js. - If you have not downloaded and installed Node in your computer: Download Node. https://nodejs.org/en/download/ and install.
+* Angular CLI - Install Angular CLI globally 
+ ```sh
+ npm install -g @angular/cli
+ ```
+ 
+ ## How to create a new Angular project
+	1. Angular cli command - ng new "projectname"
+	2. Once it's created , navigate to the project directory (cd "foldername")
 	3. Run the application : ng serve –open
