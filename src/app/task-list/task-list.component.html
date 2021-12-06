@@ -1,0 +1,10 @@
+<div class="task-list">
+    <ul>
+        <li *ngFor="let task of taskList index as i">
+           {{i+1}} {{task}}
+        </li>
+        <div *ngIf="taskList.length==0">
+            <p>No record found!</p>
+        </div>
+    </ul>
+</div>
